@@ -1,0 +1,11 @@
+// https://www.color-hex.com/color-palette/67219
+
+$theme-colors: (
+    "primary": #74b9ff,
+    "secondary": #feaa70,
+    "info": #ffeaa7,
+    "muted": #bbcdcd,
+    "tertiary":#688070
+);
+
+@import "../bootstrap-4.1.3/scss/bootstrap.scss"

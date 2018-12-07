@@ -1,0 +1,63 @@
+.navbar {
+    i{
+        font-size: 2rem;
+    }
+}
+
+.jumbotron {
+    background-image: url(../images/main-background/jumbotron.jpeg);
+    background-position: center;
+    background-position-y: 35%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 520px;
+    background-color: black;
+}
+
+@media(min-width: 1301px) {
+    #carousel1 {
+        width: 100%;
+        height: 600px;
+    }
+}
+@media(max-width: 1300px){
+    .jumbotron{
+        height: 400px
+    }
+    .display-3{
+        font-size: 3.5rem;
+    }
+}
+
+
+@media(max-width: 992px){
+    .display-3{
+        font-size: 2.5rem;
+    }
+}
+
+@media(max-width: 768px){
+    .jumbotron{
+        height: 300px;
+    }
+    .display-3{
+        font-size: 2rem;
+    }
+    #carousel1 {
+        width: 100%;
+        height: 400px;
+    }
+}
+
+
+#contact {
+    color: white;
+    i {
+        font-size: 2rem;
+        color: white;
+    }
+}
+
+.spreadLetters {
+    letter-spacing: 0.2rem;
+}
