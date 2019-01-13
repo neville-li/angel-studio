@@ -8,4 +8,5 @@ $theme-colors: (
     "tertiary":#688070
 );
 
-@import "../bootstrap-4.1.3/scss/bootstrap.scss"
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+//@import "../bootstrap-4.1.3/scss/bootstrap.scss"
